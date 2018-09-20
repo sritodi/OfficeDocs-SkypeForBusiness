@@ -50,6 +50,7 @@ The following lists describe the menus, command, fields, and properties on the p
 |Lync 2010 for Nokia  <br/> |NokiaLync  <br/> |
 |Lync 2010 for Android  <br/> |AndroidLync  <br/> |
 |Mobility service  <br/> |McxService  <br/> |
+|Skype for Business for Mac  <br/> |Skype%20for%20Business  <br/> |
 
 - **Version number** You can specify the version numbers for the following fields, or use wildcards to indicate the client version number.
 
