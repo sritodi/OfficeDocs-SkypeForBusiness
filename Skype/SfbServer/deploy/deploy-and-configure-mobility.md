@@ -624,4 +624,9 @@ For users to be able to use Call via Work, they'll also need to be:
     > [!NOTE]
     > You can turn off Call via Work without turning off access to Mobility. But you can't turn off Mobility without also turning off Call via Work. 
   
+### Enable Push Notificatoin in Platform Service Settings
+1. Log on, with an account that's a member of the **CsAdministrator** role, to a computer where **Skype for Business Server Management Shell** and **Ocscore** are installed.
+    
+2. Start the **Skype for Business Server Management Shell**.
+3. Set-CsPlatformServiceSettings -EnablePushNotifications $true
 
