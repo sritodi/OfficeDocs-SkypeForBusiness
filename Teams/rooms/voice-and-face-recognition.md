@@ -127,14 +127,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Disabled
 To enable or disable voice and face enrollment for specific users, admins can either assign a custom meeting policy to the users or use the following PowerShell cmdlet:
 
 ```Powershell
-Set-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Enabled
+Set-CsTeamsMeetingPolicy -Identity <PolicyName> -EnrollUserOverride Enabled
 ```
 
  
 
 
 ```Powershell
-Set-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Disabled 
+Set-CsTeamsMeetingPolicy -Identity <PolicyName> -EnrollUserOverride Disabled 
 ```
 
  
